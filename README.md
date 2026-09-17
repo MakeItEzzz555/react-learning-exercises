@@ -11,11 +11,11 @@ Vite React practice projects exploring routing, context, theme switching and per
 | `TODOlist` | Adds, edits, deletes and completes todos and persists them in localStorage. | JavaScript / React / Vite |
 | `User-Context` | Stores form-entered user state in context and shows a greeting/profile. | JavaScript / React / Vite |
 
-Each folder is an independent exercise or project. Original names, source, dependency versions and required project configuration are preserved.
+Each folder is an independent exercise or project. Original folder organization, dependency versions and required project configuration are preserved.
 
 ## Getting Started
 
-Each subfolder has its own Vite package and lockfile. With Node.js and npm installed, enter one subfolder, run `npm ci`, then `npm run dev`. Keep the historical dependency versions. TODOlist stores data in browser localStorage; User-Context is a state-sharing demo and does not authenticate users. ContextThemeSwitcher imports `contexts/theme` while the preserved file is `Theme.js`; this may prevent builds on case-sensitive filesystems.
+Each subfolder has its own Vite package and lockfile. With Node.js and npm installed, enter one subfolder, run `npm ci`, then `npm run dev`. Keep the historical dependency versions. TODOlist stores data in browser localStorage; User-Context is a state-sharing demo and does not authenticate users. The theme import now matches `Theme.js` exactly; the TODO update callback uses its requested ID. The routing exercise uses a neutral example contact address.
 
 ## Validation
 

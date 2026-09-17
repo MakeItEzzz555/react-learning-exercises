@@ -7,7 +7,7 @@ const Contact = () => {
   const [ripple, setRipple] = useState(false);
 
   // Email to copy
-  const email = "poutsovich69@gmail.com";
+  const email = "contact@example.com";
 
   // Handle copy action
   const handleCopy = () => {
