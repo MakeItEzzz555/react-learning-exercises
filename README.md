@@ -1,5 +1,7 @@
 # React Learning Exercises
 
+> This coursework has been consolidated into [MakeItEzzz555/frederick-university-coursework](https://github.com/MakeItEzzz555/frederick-university-coursework). This repository is archived to preserve its history and URLs.
+
 Vite React practice projects exploring routing, context, theme switching and persistent todos.
 
 ## Contents
